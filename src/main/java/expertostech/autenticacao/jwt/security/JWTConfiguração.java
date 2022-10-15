@@ -15,7 +15,6 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @EnableWebSecurity
 public class JWTConfiguração extends WebSecurityConfigurerAdapter {
-
     private final DetalheUsuarioServiceImpl usuarioService;
     private final PasswordEncoder passwordEncoder;
 
